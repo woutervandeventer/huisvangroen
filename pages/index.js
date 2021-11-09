@@ -1,10 +1,18 @@
 import styled from 'styled-components'
+import Hero from '../components/Hero'
+import About from '../components/About'
+import Contact from '../components/Contact'
 
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
+const StyledHome = styled.main`
+  background-color: ${(props) => props.theme.colors.primary};
 `
 
 export default function Home() {
-  return <Title>My page</Title>
+  return (
+    <StyledHome>
+      <Hero />
+      <About />
+      <Contact />
+    </StyledHome>
+  )
 }
