@@ -41,7 +41,7 @@ const theme = {
       1.25 * sizes.xxxl
     }vw, ${1.25 * sizes.xxxl}rem)`
   },
-  navHeight: '4.5rem'
+  navHeight: '5rem'
 }
 
 export default theme
