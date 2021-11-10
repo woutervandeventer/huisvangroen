@@ -66,6 +66,11 @@ export default function Nav({ open, setOpen }) {
             Kapper René
           </NavLink>
         </li>
+        <li>
+          <NavLink page="/vacature" section="#vacature" setOpen={setOpen}>
+            Vacature
+          </NavLink>
+        </li>
       </ul>
     </StyledNav>
   )
