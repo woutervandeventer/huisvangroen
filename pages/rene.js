@@ -60,6 +60,8 @@ export default function Rene() {
             quality={100}
             layout="responsive"
             alt='Frans uithangbord met "coiffeur"'
+            placeholder="blur"
+            lazyBoundary="300px"
           />
         </div>
         <p>
@@ -85,6 +87,8 @@ export default function Rene() {
             quality={100}
             layout="responsive"
             alt="Kappersstoel"
+            placeholder="blur"
+            lazyBoundary="300px"
           />
         </div>
         <p>
@@ -102,6 +106,8 @@ export default function Rene() {
             quality={100}
             layout="responsive"
             alt="Deur naar de binnentuin"
+            placeholder="blur"
+            lazyBoundary="300px"
           />
         </div>
         <p>
@@ -126,6 +132,8 @@ export default function Rene() {
             quality={100}
             layout="responsive"
             alt="Beschuitbussen met plantkleuring"
+            placeholder="blur"
+            lazyBoundary="300px"
           />
         </div>
         <p>

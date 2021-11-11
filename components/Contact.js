@@ -112,15 +112,15 @@ export default function Contact() {
             </tr>
             <tr>
               <td>Dinsdag</td>
-              <td>8:00-20:00</td>
+              <td>9:00-20:00</td>
             </tr>
             <tr>
               <td>Woensdag</td>
-              <td>8:00-13:00</td>
+              <td>9:00-18:00</td>
             </tr>
             <tr>
               <td>Donderdag</td>
-              <td>8:00-19:00</td>
+              <td>9:00-19:00</td>
             </tr>
             <tr>
               <td>Vrijdag</td>
@@ -132,7 +132,7 @@ export default function Contact() {
             </tr>
             <tr>
               <td>Zondag</td>
-              <td>9:00-20:00</td>
+              <td>10:00-19:00</td>
             </tr>
           </tbody>
         </table>
@@ -186,6 +186,8 @@ export default function Contact() {
           layout="responsive"
           quality={100}
           alt="Voorgevel van Huis van Groen aan de Weimarstraat"
+          placeholder="blur"
+          lazyBoundary="300px"
         />
       </figure>
     </StyledContact>
