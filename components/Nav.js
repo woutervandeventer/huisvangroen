@@ -12,6 +12,7 @@ const StyledNav = styled.nav`
   background-color: ${(props) => props.theme.colors.white};
   transform: ${({ open }) => !open && 'translateX(100%)'};
   transition: transform 300ms ease;
+  touch-action: none;
 
   ul {
     height: 100%;

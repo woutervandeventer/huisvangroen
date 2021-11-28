@@ -187,7 +187,7 @@ export default function Contact() {
           quality={100}
           alt="Voorgevel van Huis van Groen aan de Weimarstraat"
           placeholder="blur"
-          lazyBoundary="300px"
+          lazyBoundary="800px"
         />
       </figure>
     </StyledContact>

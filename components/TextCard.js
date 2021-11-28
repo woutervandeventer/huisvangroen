@@ -47,7 +47,7 @@ export default function TextCard({ children, src, flipped, alt }) {
           quality={100}
           alt={alt || 'Foto'}
           placeholder="blur"
-          lazyBoundary="300px"
+          lazyBoundary="800px"
         />
       </picture>
     </StyledTextCard>
