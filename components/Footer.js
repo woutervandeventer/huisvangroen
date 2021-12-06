@@ -14,17 +14,10 @@ const StyledFooter = styled.footer`
 export default function Footer() {
   return (
     <StyledFooter>
-      <div>
-        &copy; {new Date().getFullYear().toString()}{' '}
-        <a
-          href="https://woutervandeventer.com/"
-          rel="noopener"
-          rel="noopener"
-          target="_blank"
-        >
-          Wouter van Deventer
-        </a>
-      </div>
+      {`\u00A9 ${new Date().getFullYear().toString()} website by `}
+      <a href="https://woutervandeventer.com/" target="_blank" rel="noreferrer">
+        Wouter van Deventer
+      </a>
     </StyledFooter>
   )
 }
